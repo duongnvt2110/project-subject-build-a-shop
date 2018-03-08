@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+li
+{
+    margin: 0!important;
+}
+h2.list-sp {
+    margin-top: -4px;
+}
+
+.row.fixrow {
+    padding-bottom: 10px;
+}
+
+
+
+h4.card-title {
+    text-align: center;
+    font-family: 'Judson', serif;
+    color: #BB1900;
+    font-size: 21px;
+}
+
+
+img.card-img-top.img-fluid {
+    width: 250px;
+    height: 241px;
+}
+
+.my-pham {
+    margin-bottom: 23px;
+    margin-left: 0;
+    font-size: 73px !important;
+    font-family: 'Merienda', cursive;
+    font-weight: bold;
+    color: #BB5511 !important;
+    font-style: italic;
+    text-align: center;
+    padding-top: 74px;
+}
+.nen{
+    background-image: url("../images/mypham.jpg");
+    background-size: 100% 419px;
+    background-repeat: no-repeat;
+    height: 423px;
+    margin-top: 51px;
+}

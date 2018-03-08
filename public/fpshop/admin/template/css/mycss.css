@@ -1,0 +1,185 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.row.rowone {
+    width: 100%;
+}
+
+h1.func {
+    text-align: center;
+    margin-top: 29px;
+    margin-bottom: 29px;
+}
+
+table.table.table-bordered.table-dark {
+    margin-top: 25px;
+}
+
+li {
+    list-style: none;
+}
+
+button.btn.btn-primary.btn-sm {
+    margin-left: 110px;
+    position: absolute;
+    top: 10px;
+}
+
+a.text-list {
+    color: white;
+}
+
+.list {
+    height: 42px;
+    text-align: center;
+    border-bottom: 1px solid wheat;
+    padding-top: 10px;
+}
+
+a {}
+
+.admin a {
+    padding: 27px;
+}
+
+.admin {
+    padding: 11px 29px;
+    background: #e0d8fd;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+}
+
+.col-md-8 {
+    display: table;
+}
+
+.menu-vertical {
+    height: 100%;
+    background: #1ccacd;
+}
+
+th.head-sp {
+    text-align: center;
+}
+
+textarea.form-control {
+    margin: 10px;
+}
+
+span.custom-file-control {
+    margin: 10px;
+}
+
+button.btn.btn-primary.btn-lg {
+    margin-left: 269px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 45px;
+    margin-right: 155px;
+}
+
+input.form-control {
+    margin:  10px;
+}
+
+/*//-----------------------*/
+img.logo-admin {
+    width: 208px;
+}
+
+legend {
+    margin-left: 36%;
+    font-size: 28px;
+    font-weight: 900;
+    color: #1ccacd;
+}
+.btn-primary{
+    background-color: #1ccacd;
+    border-color: #1ccacd;
+}
+.btn{
+    margin-left: 88px;
+}
+
+fieldset {
+    width: 272px;
+    margin: auto;
+    height: 200px;
+    position: relative;
+    top: 125px;
+    display: table;
+}
+
+input[type="submit"] {
+    width: 60px;
+    margin-left: 187px;
+    /* position: absolute; */
+    /* left: 735px; */
+    /* top: 410px; */
+}
+
+form {}
+
+.ERROR {
+    margin: auto;
+    background: red;
+    color: white;
+    width:  246px;
+    height: 25px;
+}
+
+
+
+.moto {
+    border: 1px solid;
+}
+
+table.login {
+    border-collapse: collapse;
+    margin: auto;
+    width: 253px;
+    margin-top: 33px;
+}
+
+
+table.danhsach{
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 33px;
+}
+
+.content {
+    height: 300px;
+    margin:  auto;
+    width: 469px;
+    display: table;
+}
+
+.foot {
+    width: 950px;
+    height: 100px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: yellowgreen;
+    text-align: center;
+    font-size: 41px;
+}
+
+.tieude {
+    height: 124px;
+    background-color: #1ccacd;
+    /*border-radius: 10px 
+    10px 0px 0px;*/
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    padding-top: 35px;
+
+}
+.footer-admin {
+    height: 30px;
+    text-align: center;
+    border-top: 1px solid gray;
+}

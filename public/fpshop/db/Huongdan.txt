@@ -1,0 +1,2 @@
+T?o 1 csdl phpmyadmin d?t tên new_fp.
+T?o copy file MVCFP vào htdoc c?a Xampp.

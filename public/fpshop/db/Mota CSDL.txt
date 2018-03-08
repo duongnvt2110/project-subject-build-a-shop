@@ -1,0 +1,7 @@
+G?m 6 b?ng.
+loaisp dùng d? li?t kê các s?n ph?m c?n có.
+chitietsp dùng d? mô t? s?n ph?m trong dó n?i b?t có giá tr? 0,1,2 dùng d? mô t? là khuy?n m?i,gi?m giá,hàng m?i.
+user là trang admin.
+donhang luu thông tin ngu?i mua.
+chitiet don hàng luu các s?n ph?m ngu?i mua.
+khuyenmai luu các banner xu?t hi?n d?u trang.
