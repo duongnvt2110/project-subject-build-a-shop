@@ -45,4 +45,5 @@ class Cart
 		$this->totalPrice -= $this->items[$id]['price'];
 		unset($this->items[$id]);
 	}
+
 }

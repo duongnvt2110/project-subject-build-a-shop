@@ -57,9 +57,9 @@ $(document).ready(function()
 			});
 		}
 	});
-	$("#pay-btn").click(function(){
-		alert("Đã Mua Hàng Thành Công");
-	}); 
+	// $("#pay-btn").click(function(){
+	// 	alert("Đã Mua Hàng Thành Công");
+	// }); 
 });
 
 

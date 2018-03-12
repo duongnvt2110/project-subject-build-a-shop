@@ -6,5 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class chitietdonhang extends Model
 {
-    //
+    protected $table='chitietdonhang';
+    public function getOrder()
+	{
+		return $this->beLongsTo('App\donhang','IDDH','ID');
+	}
+    
 }

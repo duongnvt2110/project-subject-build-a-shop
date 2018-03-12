@@ -47,3 +47,7 @@ Route::get('removeitem/{id}',[
 	'as'=>'removeitem',
 	'uses'=>'CartController@removeitem'
 ]);
+Route::post('checkout',[
+	'as'=>'checkout',
+	'uses'=>'CartController@checkout'
+]);

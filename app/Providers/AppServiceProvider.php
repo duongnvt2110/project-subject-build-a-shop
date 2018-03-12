@@ -15,7 +15,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        view()->composer('view.cart',function($view){
+        view()->composer(['view.cart','App\Http\CartController'],function($view){
             if(Session('cart')){
                 $oldCart = Session::get('cart');
                 $cart = new Cart($oldCart);
