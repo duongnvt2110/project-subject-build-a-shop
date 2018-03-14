@@ -5,6 +5,7 @@
 	
 	<!-- CSS -->
 	<base href="{{asset('')}}">
+	<meta name="csrf-token" content="{{ csrf_token() }}">
 	<link rel="stylesheet" type="text/css"  href="fpshop/public/css/custom.css">
 	<link rel="stylesheet" type="text/css"  href="fpshop/public/css/ss.css">
 	<link rel="stylesheet" type="text/css"  href="fpshop/public/css/layout.css">
@@ -80,10 +81,13 @@
 							</div>
 						</ul>
 						<div>
-							<form class="form-inline my-2 my-lg-0">
+							{{-- <form class="form-inline my-2 my-lg-0"> --}}
+							{!!Form::open(array('class' =>'form-inline my-2 my-lg-0'))!!}
 								<!-- <label for="input-text">Search: </label> -->
-								<input id="input-text" name="text" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-							</form>
+							{{-- {!! Form::label('number', 'SĐT') !!} --}}
+   							{!! Form::text('search', null, array('placeholder' => "Search",'aria-label'=>"Search",'class' =>"form-control mr-sm-2",'type'=>'search','id'=>"input-text",'name'=>'text'))!!}
+							{{-- 	<input id="input-text" name="text" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> --}}
+							{!!Form::close()!!}
 							<div class="quick-view">
 								
 							</div>
@@ -99,25 +103,6 @@
 	<!-- scroll top-->
 	<button href="#" class="scrollToTop">Top</button>
 
-	<script>
-		$(document).ready(function(){
-
-	//Check to see if the window is top if not then display button
-	$(window).scroll(function(){
-		if ($(this).scrollTop() > 100) {
-			$('.scrollToTop').fadeIn();
-		} else {
-			$('.scrollToTop').fadeOut();
-		}
-	});
-	
-	//Click event to scroll to top
-	$('.scrollToTop').click(function(){
-		$('html, body').animate({scrollTop : 0},800);
-		return false;
-	});
-});
-</script>
 <!-- End header taskbar -->		
 <!-- end list -->
 <!-- statar-footer -->

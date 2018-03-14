@@ -51,3 +51,7 @@ Route::post('checkout',[
 	'as'=>'checkout',
 	'uses'=>'CartController@checkout'
 ]);
+Route::post('search',[
+	'as'=>'search',
+	'uses'=>'HomeController@search'
+]);

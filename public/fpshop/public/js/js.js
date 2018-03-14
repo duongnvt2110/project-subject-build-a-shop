@@ -45,9 +45,14 @@ $(document).ready(function()
 		}
 		else
 		{
+			$.ajaxSetup({
+			  headers: {
+			    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+			  }
+			});
 			$.ajax({
-				url:"/MVCFP/site/config/search.php",
-				type:"get",
+				type:"post",
+				url:'search',
 				data:{search:txt},
 				dataType:"text",
 				success:function(data){
@@ -56,6 +61,19 @@ $(document).ready(function()
 				}
 			});
 		}
+	});
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrollToTop').fadeIn();
+		} else {
+			$('.scrollToTop').fadeOut();
+		}
+	});
+	
+	//Click event to scroll to top
+	$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
 	});
 	// $("#pay-btn").click(function(){
 	// 	alert("Đã Mua Hàng Thành Công");
